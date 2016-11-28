@@ -22,5 +22,9 @@ school_of_rock = media.Movie("School of Rock",
                              "https://ww.youtube.com/watch?v=3PsUJFEBC74")
 
 movies = [toy_story, avatar, threeHundred, school_of_rock]
-fresh_tomatoes.open_movies_page(movies)
-
+#fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+var = "12"
+print("The Class name is: " + media.Movie.__name__ + " and the file name: " + media.Movie.__module__)
