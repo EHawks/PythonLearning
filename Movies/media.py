@@ -1,3 +1,10 @@
+"""
+Elliott Hawks
+Nov 30, 2016
+
+Class holds information for movies, can be expanded for more media.
+"""
+
 import webbrowser
 
 class Movie():

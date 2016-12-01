@@ -15,4 +15,4 @@ jon_snow = Parent("Snow", "Brown")
 print(jon_snow.last_name)
 
 bill_snow = Child("Snow", "Blue", 3)
-print(bill_snow.last_name, bill_snow.number_of_toys)
+print(bill_snow.number_of_toys)
