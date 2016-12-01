@@ -47,5 +47,8 @@ transformers = media.Movie("Transformers",
                            "https://www.youtube.com/watch?v=BrnXrtm334k")
                            
 
-movies = [lotr_fellowship, lotr_two_towers, lotr_return_king, threeHundred, saw, transformers]
+#Movies added to list that will be displayed on the webpage
+movies = [lotr_fellowship, lotr_two_towers, lotr_return_king, three_hundred, saw, transformers]
+
+#Function call in fresh_tomatoes.py that uses list of moves to generate the HTML file on a new page in browser.
 fresh_tomatoes.open_movies_page(movies)
